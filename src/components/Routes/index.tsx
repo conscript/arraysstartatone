@@ -3,14 +3,16 @@ import React from "react";
 import Home from "../../pages/Home";
 import Blog from "../../pages/Blog";
 import About from "../../pages/About";
+import Gallery from "../../pages/Gallery";
 
 const Routes = () => {
   return (
     <Router>
       <Switch>
         <Route component={Home} path="/" exact={true} />
-        <Route component={Blog} path="/blog" exact={true} />
-        <Route component={About} path="/about" exact={true} />
+        <Route component={Blog} path="/blog" />
+        <Route component={About} path="/about" />
+        <Route component={Gallery} path="/gallery" />
       </Switch>
     </Router>
   );
