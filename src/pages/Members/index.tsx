@@ -5,7 +5,9 @@ import React from "react";
 const Members = () => {
   return (
     <Layout>
-      <Container>MEMBERS</Container>
+      <Container>
+        <h1>Members</h1>
+      </Container>
     </Layout>
   );
 };

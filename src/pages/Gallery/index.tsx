@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 const Gallery = () => {
   return (
     <Layout>
-      <Container>GALLERY</Container>
+      <Container><h1>Gallery</h1></Container>
     </Layout>
   );
 };

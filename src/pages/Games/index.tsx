@@ -6,7 +6,9 @@ import React from "react";
 const Games = () => {
   return (
     <Layout>
-      <Container>GAMES</Container>
+      <Container>
+        <h1>Games</h1>
+      </Container>
     </Layout>
   );
 };
