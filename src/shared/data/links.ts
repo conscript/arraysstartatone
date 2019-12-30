@@ -20,5 +20,10 @@ export const primaryLinks: Array<LinkInfo> = [
     id: 'T7ramTE%K3PPVT0R',
     url: '/resources',
     name: 'Resources',
+  },
+  {
+    id: '2R8PRn*eYy8$$Pmf',
+    url: '/members',
+    name: 'Members'
   }
 ];
