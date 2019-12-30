@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { primaryLinks } from "../../shared/data/links";
 import "./Header.scss";
 import { map } from "lodash";
+import Brand from "./Brand";
 
 interface HeaderProps {
   dark: boolean;
@@ -14,7 +15,9 @@ const Header = (props: HeaderProps) => (
   <header>
     <Container>
       <Navbar expand="lg" variant={props.dark ? "dark" : "light"}>
-        <Navbar.Brand as={Link} to="/"></Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">
+          <Brand />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="main-navigation" />
         <Navbar.Collapse id="main-navigation">
           <Nav className="mr-auto text-center">
