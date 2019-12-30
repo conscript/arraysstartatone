@@ -6,6 +6,7 @@ import About from "../../pages/About";
 import Gallery from "../../pages/Gallery";
 import Resources from "../../pages/Resources";
 import Members from "../../pages/Members";
+import Games from "../../pages/Games";
 
 const Routes = () => {
   return (
@@ -17,6 +18,7 @@ const Routes = () => {
         <Route component={Gallery} path="/gallery" />
         <Route component={Resources} path="/resources" />
         <Route component={Members} path="/members" />
+        <Route component={Games} path="/games" />
       </Switch>
     </Router>
   );

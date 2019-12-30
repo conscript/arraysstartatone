@@ -2,28 +2,33 @@ import { LinkInfo } from "../models/LinkInfo";
 
 export const primaryLinks: Array<LinkInfo> = [
   {
-    id: '*lzQ18eyA130jZ!r',
-    url: '/about',
-    name: 'About'
+    id: "*lzQ18eyA130jZ!r",
+    url: "/about",
+    name: "About"
+  }, 
+  {
+    id: "sj8124lH&31B2bhP",
+    url: "/gallery",
+    name: "Gallery"
   },
   {
-    id: '@Sy@q&keEh5RZ66J',
-    url: '/blog',
-    name: 'Blog'
+    id: "2R8PRn*eYy8$$Pmf",
+    url: "/members",
+    name: "Members"
   },
   {
-    id: 'sj8124lH&31B2bhP',
-    url: '/gallery',
-    name: 'Gallery'
+    id: "q%$FaTBR1TLCcMj3",
+    url: "/games",
+    name: "Games"
   },
   {
-    id: 'T7ramTE%K3PPVT0R',
-    url: '/resources',
-    name: 'Resources',
+    id: "@Sy@q&keEh5RZ66J",
+    url: "/blog",
+    name: "Blog"
   },
   {
-    id: '2R8PRn*eYy8$$Pmf',
-    url: '/members',
-    name: 'Members'
+    id: "T7ramTE%K3PPVT0R",
+    url: "/resources",
+    name: "Resources"
   }
 ];
