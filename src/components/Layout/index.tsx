@@ -1,7 +1,8 @@
-import Footer from './Footer';
+import Footer from "./Footer";
 import Header from "./Header";
 import React, { PropsWithChildren } from "react";
 import "./index.scss";
+import { Container } from "react-bootstrap";
 
 export interface LayoutProps {
   dark?: boolean;
