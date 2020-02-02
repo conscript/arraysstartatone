@@ -14,6 +14,7 @@ const Games = () => {
               id="finalfantasy14"
               src="/assets/images/finalfantasy14.jpg"
               description="MMORPG"
+              href="/games/finalfantasy"
             />
           </Col>
         </Row>

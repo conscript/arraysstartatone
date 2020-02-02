@@ -5,6 +5,7 @@ import About from "../../pages/About";
 import Gallery from "../../pages/Gallery";
 import Members from "../../pages/Members";
 import Games from "../../pages/Games";
+import FinalFantasy from "../../pages/Games/FinalFantasy";
 
 const Routes = () => {
   return (
@@ -14,7 +15,8 @@ const Routes = () => {
         <Route component={About} path="/about" />
         <Route component={Gallery} path="/gallery" />
         <Route component={Members} path="/members" />
-        <Route component={Games} path="/games" />
+        <Route component={Games} path="/games" exact={true} />
+        <Route component={FinalFantasy} path="/games/finalfantasy" />
       </Switch>
     </Router>
   );
