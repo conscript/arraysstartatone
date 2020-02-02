@@ -8,6 +8,7 @@ export interface GameCardProps {
   alt?: string;
   height?: number;
   width?: number;
+  description?: string;
 }
 
 /**
@@ -27,15 +28,13 @@ const GameCard: FC<GameCardProps> = (
       <Card.Img
         variant="top"
         className="image"
-        src="/assets/images/finalfantasy14.jpg"        
+        src={props.src}       
       />
       <div className="card-banner">{props.children}</div>
       <Card.Body>
-        <Card.Text>
-          Doluptassimus aut hicient rerios ipsus arum ra ditatur? Tiam qui dolut
-          que ma dolut il ipsaecu ptatur?
+        <Card.Text className="text-center">
+         {props.description}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
   );

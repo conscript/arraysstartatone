@@ -13,6 +13,7 @@ const Games = () => {
             <GameCard
               id="finalfantasy14"
               src="/assets/images/finalfantasy14.jpg"
+              description="MMORPG"
             />
           </Col>
         </Row>
