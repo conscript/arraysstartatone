@@ -7,6 +7,13 @@ const Members = () => {
     <Layout>
       <Container>
         <h1>Members</h1>
+        <ul>
+          <li>Conscript</li>
+          <li>Clover</li>
+          <li>Akuma</li>
+          <li>ThisChris</li>
+          <li>B-Rad</li>
+        </ul>
       </Container>
     </Layout>
   );

@@ -20,15 +20,5 @@ export const primaryLinks: Array<LinkInfo> = [
     id: "q%$FaTBR1TLCcMj3",
     url: "/games",
     name: "Games"
-  },
-  {
-    id: "@Sy@q&keEh5RZ66J",
-    url: "/blog",
-    name: "Blog"
-  },
-  {
-    id: "T7ramTE%K3PPVT0R",
-    url: "/resources",
-    name: "Resources"
   }
 ];
