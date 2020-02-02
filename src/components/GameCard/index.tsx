@@ -14,8 +14,8 @@ const GameCard: FC<GameCardProps> = (
   props: PropsWithChildren<GameCardProps>
 ) => {
   return (
-    <Card className="shadow" key={`image-${props.id}`}>
-      <Card.Img variant="top" className="image" src={props.src} />
+    <Card id="card" className="shadow" key={`image-${props.id}`}>
+      <Card.Img variant="top" src={props.src} />
       <div className="card-banner">{props.children}</div>
       <Card.Body>
         <Card.Text className="text-center">{props.description}</Card.Text>

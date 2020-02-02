@@ -8,8 +8,8 @@ const Games = () => {
     <Layout>
       <Container>
         <h1>Games We Play</h1>
-        <Row className="pt-5">
-          <Col md={3}>
+        <Row>
+          <Col md={3} className="pt-3">
             <GameCard
               id="finalfantasy14"
               src="/assets/images/finalfantasy14.png"
@@ -17,7 +17,7 @@ const Games = () => {
               href="https://www.finalfantasyxiv.com/"
             />
           </Col>
-          <Col md={3}>
+          <Col md={3} className="pt-3">
             <GameCard
               id="callofduty"
               src="/assets/images/callofduty.jpg"
@@ -25,7 +25,7 @@ const Games = () => {
               href="https://www.callofduty.com/modernwarfare"
             />
           </Col>
-          <Col md={3}>
+          <Col md={3} className="pt-3">
             <GameCard
               id="rainbowsixsiege"
               src="/assets/images/rainbowsixsiege.png"
@@ -33,7 +33,7 @@ const Games = () => {
               href="https://www.ubisoft.com/en-us/game/rainbow-six/siege/"
             />
           </Col>
-          <Col md={3}>
+          <Col md={3} className="pt-3">
             <GameCard
               id="rocketleague"
               src="/assets/images/rocketleague.png"
