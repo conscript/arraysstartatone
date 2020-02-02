@@ -1,7 +1,6 @@
 import "./index.scss";
 import React, { FC, PropsWithChildren } from "react";
-import { Card } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Card, Button } from "react-bootstrap";
 
 export interface GameCardProps {
   id: string;
@@ -15,15 +14,14 @@ const GameCard: FC<GameCardProps> = (
   props: PropsWithChildren<GameCardProps>
 ) => {
   return (
-    <Link to={props.href} id="card">
-      <Card className="shadow" key={`image-${props.id}`}>
-        <Card.Img variant="top" className="image" src={props.src} />
-        <div className="card-banner">{props.children}</div>
-        <Card.Body>
-          <Card.Text className="text-center">{props.description}</Card.Text>
-        </Card.Body>
-      </Card>
-    </Link>
+    <Card className="shadow" key={`image-${props.id}`}>
+      <Card.Img variant="top" className="image" src={props.src} />
+      <div className="card-banner">{props.children}</div>
+      <Card.Body>
+        <Card.Text className="text-center">{props.description}</Card.Text>
+        <Button variant="primary" href={props.href}>Check It Out!</Button>
+      </Card.Body>
+    </Card>
   );
 };
 

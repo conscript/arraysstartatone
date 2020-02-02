@@ -14,7 +14,7 @@ const Layout: React.FC<LayoutProps> = (
   return (
     <div className={`layout ${props.dark ? "dark" : ""}`}>
       <Header dark={props.dark ?? false} />
-      <main className={`${props.className}`}>{props.children}</main>
+      <main className={`${props.className} py-5`}>{props.children}</main>
       <Footer />
     </div>
   );
