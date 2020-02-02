@@ -6,9 +6,9 @@ import React from "react";
 const Games = () => {
   return (
     <Layout>
-      <Container>
+      <Container className="pt-5">
         <h1>Games</h1>
-        <Row>
+        <Row className="pt-5">
           <Col md={3}>
             <GameCard
               id="finalfantasy14"
