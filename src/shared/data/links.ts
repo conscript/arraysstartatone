@@ -7,11 +7,6 @@ export const primaryLinks: Array<LinkInfo> = [
     name: "About"
   }, 
   {
-    id: "sj8124lH&31B2bhP",
-    url: "/gallery",
-    name: "Gallery"
-  },
-  {
     id: "2R8PRn*eYy8$$Pmf",
     url: "/members",
     name: "Members"

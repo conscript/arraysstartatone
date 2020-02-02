@@ -1,6 +1,6 @@
 import "./index.scss";
 import React, { FC, PropsWithChildren } from "react";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 export interface GameCardProps {
   id: string;
@@ -19,7 +19,7 @@ const GameCard: FC<GameCardProps> = (
       <div className="card-banner">{props.children}</div>
       <Card.Body>
         <Card.Text className="text-center">{props.description}</Card.Text>
-        <Button variant="primary" href={props.href}>Check It Out!</Button>
+        <a className="btn btn-primary" href={props.href} target="_blank" rel="noopener noreferrer">Check It Out!</a>
       </Card.Body>
     </Card>
   );
