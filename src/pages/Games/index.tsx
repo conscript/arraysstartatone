@@ -13,7 +13,7 @@ const Games = () => {
             <GameCard
               id="finalfantasy14"
               src="/assets/images/finalfantasy14.png"
-              description="MMORPG"
+              description="Final Fantasy XIV is a massively multiplayer online role-playing game (MMORPG) developed and published by Square Enix"
               href="https://www.finalfantasyxiv.com/"
             />
           </Col>
@@ -21,7 +21,7 @@ const Games = () => {
             <GameCard
               id="callofduty"
               src="/assets/images/callofduty.jpg"
-              description="FPS"
+              description="Call of Duty: Modern Warfare is a first-person shooter video game developed by Infinity Ward and published by Activision."
               href="https://www.callofduty.com/modernwarfare"
             />
           </Col>
@@ -29,7 +29,7 @@ const Games = () => {
             <GameCard
               id="rainbowsixsiege"
               src="/assets/images/rainbowsixsiege.png"
-              description="FPS"
+              description="Tom Clancy's Rainbow Six Siege is a first-person shooter game, in which players utilize many different operators from the Rainbow team."
               href="https://www.ubisoft.com/en-us/game/rainbow-six/siege/"
             />
           </Col>
@@ -37,7 +37,7 @@ const Games = () => {
             <GameCard
               id="rocketleague"
               src="/assets/images/rocketleague.png"
-              description="Sports"
+              description="Rocket League is a vehicular soccer video game developed and published by Psyonix."
               href="https://www.rocketleague.com/"
             />
           </Col>

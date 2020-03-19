@@ -20,6 +20,7 @@ const Members = () => {
               <li>Akuma</li>
               <li>ThisChris</li>
               <li>B-Rad</li>
+              <li>Skye FateFae</li>
             </ul>
           </Col>
         </Row>

@@ -1,4 +1,12 @@
 #card {
+  height: 500px;
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   a {
     background-color: #7851a9;
   }
